@@ -2,7 +2,7 @@
   "browser": {
     "browserName": "chromium",
     "isolated": false,
-    "userDataDir": "_opensquad/_browser_profile",
+    "userDataDir": "/home/user/mysquad/_opensquad/_browser_profile",
     "launchOptions": {
       "headless": true,
       "executablePath": "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",

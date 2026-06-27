@@ -6,7 +6,7 @@
         "@playwright/mcp@latest",
         "--no-sandbox",
         "--config",
-        "_opensquad/config/playwright.config.json"
+        "/home/user/mysquad/_opensquad/config/playwright.config.json"
       ],
       "env": {
         "PLAYWRIGHT_BROWSERS_PATH": "/opt/pw-browsers",
