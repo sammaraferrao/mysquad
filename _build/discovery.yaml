@@ -1,0 +1,43 @@
+squad_code: "instagram-content-ia"
+purpose: "Produzir conteúdo para Instagram sobre Inteligência Artificial"
+domain: "content"
+
+company:
+  name: "Marca pessoal de Sâmmara Ferrao (em construção)"
+  tone: "Profissional e inspiracional"
+  products: "Conteúdo educativo sobre IA para empreendedores"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Empreendedores e profissionais de negócios"
+  platforms: "Instagram (Feed, Reels, Stories)"
+  tone: "Profissional e inspiracional"
+
+tools_needed:
+  - "image-creator"
+  - "image-ai-generator"
+  - "template-designer"
+  - "instagram-publisher"
+  - "canva"
+
+investigation:
+  enabled: true
+  profiles:
+    - url: "https://www.instagram.com/thaismartan/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/allesinigalli/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/odanilogato/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/brun0gpt/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+
+target_formats:
+  - "instagram-feed"
+  - "instagram-reels"
+  - "instagram-stories"
