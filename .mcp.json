@@ -4,6 +4,7 @@
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",
+        "--no-sandbox",
         "--config",
         "_opensquad/config/playwright.config.json"
       ],
