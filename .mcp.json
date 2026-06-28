@@ -5,8 +5,11 @@
       "args": [
         "@playwright/mcp@latest",
         "--no-sandbox",
-        "--config",
-        "/home/user/mysquad/_opensquad/config/playwright.config.json"
+        "--headless",
+        "--executable-path",
+        "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
+        "--user-data-dir",
+        "/home/user/mysquad/_opensquad/_browser_profile"
       ],
       "env": {
         "PLAYWRIGHT_BROWSERS_PATH": "/opt/pw-browsers",
