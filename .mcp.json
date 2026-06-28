@@ -4,11 +4,8 @@
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",
-        "--headless",
-        "--executable-path",
-        "/home/user/mysquad/_opensquad/chromium-wrapper.sh",
-        "--user-data-dir",
-        "/home/user/mysquad/_opensquad/_browser_profile"
+        "--config",
+        "/home/user/mysquad/_opensquad/config/playwright.config.json"
       ],
       "env": {
         "PLAYWRIGHT_BROWSERS_PATH": "/opt/pw-browsers",
