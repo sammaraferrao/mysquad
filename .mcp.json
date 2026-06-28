@@ -4,10 +4,9 @@
       "command": "npx",
       "args": [
         "@playwright/mcp@latest",
-        "--no-sandbox",
         "--headless",
         "--executable-path",
-        "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
+        "/home/user/mysquad/_opensquad/chromium-wrapper.sh",
         "--user-data-dir",
         "/home/user/mysquad/_opensquad/_browser_profile"
       ],
