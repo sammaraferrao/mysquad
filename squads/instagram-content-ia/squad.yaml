@@ -1,0 +1,24 @@
+name: "Instagram Content IA"
+code: "instagram-content-ia"
+description: "Squad de criação de conteúdo para Instagram focado em IA aplicada a negócios reais. Produz carrosséis e reels com analogias culturais, linguagem direta e zero jargão de coach."
+version: "1.0.0"
+
+agents:
+  - agents/rebeca-radar.agent.md
+  - agents/camila-criadora.agent.md
+  - agents/vera-veredito.agent.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md

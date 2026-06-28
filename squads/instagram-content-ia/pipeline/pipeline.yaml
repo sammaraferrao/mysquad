@@ -1,0 +1,21 @@
+name: "Pipeline de Conteúdo — Instagram Content IA"
+code: "instagram-content-ia"
+version: "1.0.0"
+
+steps:
+  - pipeline/steps/step-01-foco-de-pesquisa.md
+  - pipeline/steps/step-02-pesquisa-de-pautas.md
+  - pipeline/steps/step-03-selecao-de-pauta.md
+  - pipeline/steps/step-04-geracao-de-angulos.md
+  - pipeline/steps/step-05-selecao-de-angulo.md
+  - pipeline/steps/step-06-criacao-de-conteudo.md
+  - pipeline/steps/step-07-aprovacao-de-conteudo.md
+  - pipeline/steps/step-08-revisao-editorial.md
+  - pipeline/steps/step-09-aprovacao-final.md
+
+checkpoints:
+  - step-01-foco-de-pesquisa
+  - step-03-selecao-de-pauta
+  - step-05-selecao-de-angulo
+  - step-07-aprovacao-de-conteudo
+  - step-09-aprovacao-final

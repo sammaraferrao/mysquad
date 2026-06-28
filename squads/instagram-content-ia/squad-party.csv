@@ -1,0 +1,4 @@
+id,name,title,icon,path
+rebeca-radar,Rebeca Radar,Pesquisadora de Tendências,🔍,./agents/rebeca-radar.agent.md
+camila-criadora,Camila Criadora,Criadora de Conteúdo,✍️,./agents/camila-criadora.agent.md
+vera-veredito,Vera Veredito,Revisora Editorial,⚖️,./agents/vera-veredito.agent.md
